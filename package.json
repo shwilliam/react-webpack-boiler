@@ -1,0 +1,43 @@
+{
+  "name": "react-webpack-boiler",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.html",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "lint": "eslint src/**/*.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/react-webpack-boiler.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boiler"
+  ],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/react-webpack-boiler/issues"
+  },
+  "homepage": "https://github.com/shwilliam/react-webpack-boiler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint-plugin-react": "^7.14.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
